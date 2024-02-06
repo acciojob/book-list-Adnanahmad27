@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+h1{
+	text-align : center;
+}
+.form-group form{
+	display : flex;
+	flex-direction : column;
+	gap:5px;
+}
+#submit{
+	background : #0066ff;
+	color:white;
+	width : 85px;
+	height : 25px;
+	border : 1px solid #0066ff;
+	border-radius : 5px; 
+}
+.table{
+    width : 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+	text-align : left;
+	
+}
+.table , td , th {
+    
+	padding : 5px;
+}
+.table th {
+    border-bottom : 3px solid black;
+}
+#book-list{
+	background-color : #e6e6ff;
+}
+.delete{
+  background-color : red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
